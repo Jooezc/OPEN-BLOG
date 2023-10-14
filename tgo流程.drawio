@@ -1,0 +1,206 @@
+<mxfile host="app.diagrams.net" modified="2023-10-14T02:36:21.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="t5emio11MB80dz1l9vKl" version="21.6.6" type="github">
+  <diagram name="第 1 页" id="tV15dSDDty3AZcR8Mu-x">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8CijfnlMboPXFiLAoEPA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" parent="1" source="8CijfnlMboPXFiLAoEPA-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-1" value="通过URL启动App" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
+          <mxGeometry x="20" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" parent="1" source="8CijfnlMboPXFiLAoEPA-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-2" value="通过URL&lt;br&gt;1.App从后台切至前台2.启动App" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
+          <mxGeometry x="20" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" parent="1" source="8CijfnlMboPXFiLAoEPA-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-6" value="获取encryptedToken" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
+          <mxGeometry x="180" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-8" value="进入房间" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
+          <mxGeometry x="340" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" parent="1" source="8CijfnlMboPXFiLAoEPA-9" target="8CijfnlMboPXFiLAoEPA-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-9" value="获取encryptedToken&lt;br&gt;获取本地记录" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
+          <mxGeometry x="180" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" parent="1" source="8CijfnlMboPXFiLAoEPA-10" target="8CijfnlMboPXFiLAoEPA-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-21" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" parent="8CijfnlMboPXFiLAoEPA-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" parent="1" source="8CijfnlMboPXFiLAoEPA-10" target="8CijfnlMboPXFiLAoEPA-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-22" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" parent="8CijfnlMboPXFiLAoEPA-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-10" value="本地有encryptedToken的进房间记录？" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
+          <mxGeometry x="350" y="360" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-12" value="不处理" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
+          <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-14" value="更新本地记录，进入房间" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
+          <mxGeometry x="490" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" parent="1" source="8CijfnlMboPXFiLAoEPA-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-23" value="通过URL&lt;br&gt;1.App从后台切至前台2.启动App" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
+          <mxGeometry x="80" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8CijfnlMboPXFiLAoEPA-25" target="8CijfnlMboPXFiLAoEPA-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-31" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" parent="8CijfnlMboPXFiLAoEPA-28" vertex="1" connectable="0">
+          <mxGeometry x="-0.3333" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-25" value="是否启动？" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" parent="1" vertex="1">
+          <mxGeometry x="100" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-29" value="获取encryptedToken" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" parent="1" vertex="1">
+          <mxGeometry x="200" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8CijfnlMboPXFiLAoEPA-37" target="8CijfnlMboPXFiLAoEPA-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-36" value="Register(Invite code)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" parent="8CijfnlMboPXFiLAoEPA-33" vertex="1" connectable="0">
+          <mxGeometry x="-0.1143" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" parent="1" source="8CijfnlMboPXFiLAoEPA-32" target="8CijfnlMboPXFiLAoEPA-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-32" value="生成带 Invite code 的&lt;br&gt;分享链接" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" parent="1" vertex="1">
+          <mxGeometry x="70" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" parent="1" source="8CijfnlMboPXFiLAoEPA-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-53" value="......" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;fontSize=22;" parent="8CijfnlMboPXFiLAoEPA-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.0964" y="-3" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-34" value="FPMS" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" parent="1" vertex="1">
+          <mxGeometry x="380" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-37" value="Tongits" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" parent="1" vertex="1">
+          <mxGeometry x="120" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-40" value="ebet" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" parent="1" vertex="1">
+          <mxGeometry x="650" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-41" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="1040" as="sourcePoint" />
+            <mxPoint x="170" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="1080" />
+              <mxPoint x="170" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-42" value="https://tgapi.opline777.me" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" parent="8CijfnlMboPXFiLAoEPA-41" vertex="1" connectable="0">
+          <mxGeometry x="0.1303" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-43" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;entryX=0.392;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.392;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8CijfnlMboPXFiLAoEPA-37" target="8CijfnlMboPXFiLAoEPA-32" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="1160" as="sourcePoint" />
+            <mxPoint x="350" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-44" value="Share" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" parent="8CijfnlMboPXFiLAoEPA-43" vertex="1" connectable="0">
+          <mxGeometry x="0.2766" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-45" value="新用户点击邀请链接" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" parent="1" vertex="1">
+          <mxGeometry x="210" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-49" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8CijfnlMboPXFiLAoEPA-45" target="8CijfnlMboPXFiLAoEPA-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="1160" as="sourcePoint" />
+            <mxPoint x="350" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CijfnlMboPXFiLAoEPA-50" value="Invite code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" parent="8CijfnlMboPXFiLAoEPA-49" vertex="1" connectable="0">
+          <mxGeometry x="-0.0378" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sYXMPHsBecetlDspFknp-1" value="用户刷新金币" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="610" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sYXMPHsBecetlDspFknp-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sYXMPHsBecetlDspFknp-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="730" as="sourcePoint" />
+            <mxPoint x="670" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sYXMPHsBecetlDspFknp-4" value="getCreditDetailFE" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="610" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sYXMPHsBecetlDspFknp-5" value="transferToProvider" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="610" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sYXMPHsBecetlDspFknp-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sYXMPHsBecetlDspFknp-4" target="sYXMPHsBecetlDspFknp-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="730" as="sourcePoint" />
+            <mxPoint x="440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sYXMPHsBecetlDspFknp-8" value="balance" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="610" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sYXMPHsBecetlDspFknp-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sYXMPHsBecetlDspFknp-5" target="sYXMPHsBecetlDspFknp-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="730" as="sourcePoint" />
+            <mxPoint x="440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sYXMPHsBecetlDspFknp-10" value="更新UI" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="610" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sYXMPHsBecetlDspFknp-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sYXMPHsBecetlDspFknp-8" target="sYXMPHsBecetlDspFknp-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="730" as="sourcePoint" />
+            <mxPoint x="440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
